@@ -1,0 +1,300 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b4ccfc;
+}
+form{
+    font-family: "Playfair Display", serif;
+}
+
+#demo{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
+
+.row{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.card{
+    border-radius: 30px;
+    border: #d87093 solid 3px;
+}
+.card img{
+    border: black solid 3px;
+}
+.submit{
+    background-color: black;
+    color:#d87093;
+    margin-left: 450px;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Playfair Display", serif;
+
+}
+.submit:hover{
+    background-color: #d87093;
+    color: black;
+}
+.carousel-item h3{
+    font-size: 70px;
+    font-weight: 300;
+    margin-top: 30px;
+    font-family: "Playfair Display", serif;
+
+}
+.carousel-item p{
+    font-size: 25px;
+    font-weight: 200;
+    font-family: "Playfair Display", serif;
+
+}
+.top_navbar{
+    display: flex;
+    gap: 20px;
+    color: black;
+}
+.accordion{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: px;
+}
+.main_text{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.main_text h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    font-family: "Playfair Display", serif;
+
+}
+.book_span{
+    color:#d87093 ;
+    text-decoration-line: underline;
+
+}
+.promo{
+    background-color:black;
+    height: 100px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Playfair Display", serif;
+
+
+}
+.navbar-collapse{
+    font-family: "Playfair Display", serif;
+}
+.change_content::after{
+content: '';
+color: white;
+text-shadow: 0px 0px 1px black;
+animation: chnagetext 20s infinite linear;
+}
+@keyframes chnagetext{
+0%{content: "Take a trip"}
+10%{content: "to 2 places"}
+20%{content: "at a discount !!"}
+30%{content: "Nigeria & France"}
+40%{content: "Brazil & Cuba"}
+50%{content: "Austria & Germany"}
+60%{content: "Maldives & Bali"}
+70%{content: "Hawaii & Fiji"}
+}
+.book{
+margin-bottom: 100px;
+}
+.main_text_destinations{
+    
+    margin-bottom: 50px;
+}
+.main_text_destinations h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    font-family: "Playfair Display", serif;
+}
+.destinations_span{
+    color:#d87093 ;
+    text-decoration-line: underline;
+
+}
+.accordion{
+    width: 70%;
+    background: transparent;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+.accordion-item{
+    background:black;
+    border: none;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1),-2px -2px 8px rgba(0,0,0,0.1);
+}
+.accordion-body{
+    background:#65686e;
+    font-size: 10px;
+    color: #d87093;
+    display: flex;
+    gap: 10px;
+}
+.accordion-body h1{
+    font-size: 20px;
+    align-self: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.accordion-body p{
+    font-size:20px;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+.accordion-button{
+    font-size: 20px;
+    background: transparent;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.1);
+    font-weight: 500;
+    color: #d87093;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.accordion-button:not(.collapsed){
+    background: rgba(0,0,0,0.1);
+    color:#d87093;
+    box-shadow: none;
+}
+
+.accordion-button::after{
+    background-image: none;
+    content:"\f0d7";
+    font-family: fontawesome;
+    width: auto;
+    height: auto;
+    color: #d87093;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+}
+/*Services section Start*/
+.Service{
+    background-color: white;
+    margin-top: 50px;
+}
+.services .card_services{
+    box-shadow:#d87093 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #65686e;
+    border-radius: 10px;
+}
+.services .card_services i{
+    font-size: 80px;
+    padding-left: 130px;
+    color: #d87093;
+    margin-top: 30px;
+    
+}
+.services .card_services .card-body h3{
+    font-weight: 600;
+}
+.services .card_services .card-body{
+    text-align: center;
+}
+.main_text_services h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    font-family: "Playfair Display", serif;
+    margin-top: 50px;
+}
+.services_span{
+    color:#d87093 ;
+    text-decoration-line: underline;
+
+}
+/*Services section End*/
+/*Gallery start*/
+.Gallery{
+    margin-top: 50px;
+}
+.Gallery_span{
+    color:#d87093 ;
+    text-decoration-line: underline;
+
+}
+.card_Gallery{
+    box-shadow: (0,0,0,0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.card_Gallery .card_image{
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.card_Gallery .card_image :hover{
+    transform: scale(1.1);
+}
+/*Gallery end*/
+#footer{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+   
+}
+.footer h1{
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+    color: #d87093;
+}
+.footer p{
+    font-weight: 500;
+}
+.social_links{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    
+}
+@media(max-width:500px){
+    .promo{
+        margin-left:0;
+        width:400x;
+        height: 100px;
+    }
+}
